@@ -5,4 +5,5 @@ The user can select a dataset and the number of drugs/vaccines, number of AEs, a
 
 More details about the method can be found [here](https://www.mdpi.com/2227-7390/12/17/2705).
 
-Cite as: \ttt{Sarkar, R.; Sun, J. Improved Apriori Method for Safety Signal Detection Using Post-Marketing Clinical Data. Mathematics 2024, 12, 2705. https://doi.org/10.3390/math12172705}
+### References
+[1] Sarkar, R.; Sun, J. Improved Apriori Method for Safety Signal Detection Using Post-Marketing Clinical Data. Mathematics 2024, 12, 2705. https://doi.org/10.3390/math12172705
