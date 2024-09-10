@@ -1,0 +1,16 @@
+#' Data to showcase implementation of improvedApriori R package
+#'
+#' Contains binary variables denoting drugs consumed and AEs reported for each patient ID in the report. A value of 1 denotes that the drug was taken or the AE was reported, and 0 otherwise.
+#' 
+#' @format A data frame with 13 rows and 18 columns:
+#'  \describe{
+#'    \item{Drugs}{The first 5 columns for each row (patient) correspond to the drug. 1 denotes that the patient took the drug, and 0 denotes it was not taken.} 
+#'    \item{Adverse Events (AEs)}{Columns 6 through 13 for each row (patient) correspond to the AE. 1 denotes that the AE was reported for the patient, and 0 denotes it was not reported.}
+#'    \item{Patient Reports}{Rows 1 through 13 denote the unique patients in the dataset.}
+#'  }
+#'  
+#'  @source {Dataset used by Kuo et al in Kuo, M.H.; Kushniruk, A.W.; Borycki, E.M.; Greig, D. Application of the Apriori Algorithm for Adverse Drug Reaction Detection. In Detection and Prevention of Adverse Drug Events; IOS Press: Amsterdam, The Netherlands, 2009; pp. 95–101.}
+#'  
+#'  @examples
+#'  data(kuo_data)     # Lazy loading.
+"kuo_data"
